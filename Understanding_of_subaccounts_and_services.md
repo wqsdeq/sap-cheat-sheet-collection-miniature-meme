@@ -41,7 +41,6 @@ Services are provisioned and assigned at the subaccount level.
    - **Display Name**: e.g., `integration-dev`
    - **Region**: Choose one close to your users (e.g., `Europe (Frankfurt)`)
    - **Subdomain**: Auto-generated or custom
-   - **Environment**: Select `Cloud Foundry`
 5. Click **"Create"**
 
 ---
@@ -50,9 +49,8 @@ Services are provisioned and assigned at the subaccount level.
 
 1. Open your new **Subaccount**
 2. Click **"Enable Cloud Foundry"**
-3. Choose an **Org Name**
-4. Click **"Create"**
-5. After provisioning, create a **Space** (e.g., `dev`) inside the org
+3. Click **"Create"**
+4. After provisioning, create a **Space** (e.g., `dev`) inside the org
 
 ---
 
@@ -70,16 +68,16 @@ Services are provisioned and assigned at the subaccount level.
 ---
 
 ### 🔧 Step 4: Subscribe to Integration Suite
-
+- Before subscribing enable service for sub account in Boosters and assign entitlement
 1. Go to the **Subaccount**
-2. Click **"Subscriptions"**
+2. Click **"Service Marketplace"**
 3. Search for **Integration Suite**
 4. Click **"Subscribe"**
 5. Wait until the status shows **Subscribed**
 
 ---
 
-### 🔑 Step 5: Assign Roles (Optional but Recommended)
+### 🔑 Step 5: Assign Roles 
 
 1. Go to **Security** → **Role Collections**
 2. Create or modify a role collection for Integration Suite
